@@ -1,0 +1,273 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body, html {
+    margin: 0 auto;
+    background-color: white   ;
+    font-family: 'Trebuchet MS';
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+li{
+ list-style-type: none;
+ padding: 10px;
+}
+
+h1{
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align:center;
+  font-size: 40px;
+}
+
+.indexnav{
+  margin-top: 30px;
+  margin-left: -3px;
+}
+
+.navbar{
+  padding: 10px;
+  display: inline-block;
+  margin-left: 32%;
+  font-size: 23px;
+  margin-top: -5px;
+  border-radius: 20px;
+  position: fixed;
+}
+
+.navlinks{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 18px;
+}
+
+.navlinks:hover{
+  color: lightblue;
+}
+/*Layout*/
+
+
+
+ .banner{
+   background-color: #120D31;
+   height:90px;
+   width:100%;
+   position: fixed;
+   margin-left: -2px;
+   margin-top: -73px;
+   border-radius: 0 0 25px 25px;
+ }
+
+ .content{
+   background-repeat: no-repeat;
+   width: 0 auto;
+   height: 620px;
+   max-width: 100%;
+   margin-top: -830px;
+ }
+
+ .footer{
+   background-color: #120D31;
+   height: 70px;
+   width: 100%;
+   margin-top: 145px;
+   border-radius: 25px 25px 0 0 ;
+
+ }
+
+ .imagedesign{
+   background-image: url("photos/image 3.png");
+   width:1255px;
+   height: 800px;
+   margin-top: 45px;
+   margin-left: -170px;
+   border-radius: 15px;
+ }
+
+ .imagedesign2{
+   background-image: url("photos/image 3.2.png");
+   width:273px;
+   height: 800px;
+   margin-top: -800px;
+   margin-left: 85.8%;
+   border-radius: 15px;
+ }
+/*Details*/
+
+.signupinfo{
+  background-color: rgba(255,255,255,1);
+  height:650px;
+  width: 30%;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+  margin-left: 62.8%;
+}
+
+.signinput{
+  margin: 0 auto;
+  border: 3px solid #2e466e;
+  font-size: 20px;
+  padding: 5px;
+  height: 30px;
+  width: 65%;
+  border-radius: 5px;
+}
+
+.signselect{
+  margin: 0 auto;
+  width: 67%;
+  font-size: 20px;
+  padding: 9px ;
+  border: 3px solid #2e466e;
+  border-radius: 5px;
+}
+
+  .container{
+    margin-top: 72px;
+  }
+
+  .textblock1{
+    position: relative;
+    left: 135px;
+    top: 100px;
+    margin: auto;
+    font-family: tahoma;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin-left: 63%;
+    margin-top: 60px;
+    border-radius: 15px;
+  }
+
+.textblock2{
+  position: relative;
+  left: 135px;
+  top: 100px;
+  margin: auto;
+  font-family: tahoma;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  margin-left: 63%;
+  margin-top: 60px;
+  border-radius: 15px;
+}
+
+.signuperror{
+  font-family: tahoma;
+  font-weight: 500;
+  color: black;
+  letter-spacing: initial;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 12px;
+  color: red;
+}
+
+.displaytext{
+  font-family: tahoma;
+  font-weight: 500;
+  color: black;
+  letter-spacing: initial;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+#FirstEntry{
+visibility: visible;
+position: relative;
+top: 100px;
+right: 15px;
+}
+
+#SecondEntry{
+visibility: hidden;
+margin-top: -345px;
+position: relative;
+top: 100px;
+right: 15px;
+}
+
+#ThirdEntry{
+  visibility: hidden;
+  margin-top: -350px;
+  position: relative;
+  top: 100px;
+  right: 15px;
+}
+
+#signbutton{
+  visibility: hidden;
+    position: relative;
+    left: 78px;
+    border: 1px solid #2e466e;
+    width: 150px;
+    background: #2e466e;
+    text-align: center;
+    padding: 8.8px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -150px;
+    margin-top: 230px;
+    font-family: tahoma;
+    border-radius: 25px;
+}
+
+#left{
+  visibility: hidden;
+  position: relative;
+  top: -43px;
+  right:80px;
+  border: 1px solid #2e466e;
+  width: 70px;
+  background: #2e466e;
+  text-align: center;
+  padding: 8.8px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: tahoma;
+  border-radius: 25px;
+}
+
+#right{
+  visibility: visible;
+  position: relative;
+  top: -43px;
+  left:87px;
+  border: 1px solid #2e466e;
+  width: 70px;
+  background: #2e466e;
+  text-align: center;
+  padding: 8.8px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: tahoma;
+  border-radius: 25px;
+}
+
+  .icon{
+    position: relative;
+    top: 4px;
+    left: 3px;
+  }

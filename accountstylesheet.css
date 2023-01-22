@@ -1,0 +1,1747 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body, html {
+  margin: 0 auto;
+  padding: 1px;
+  background-color: #120D31;
+  font-family: tahoma;
+  max-height: 100px
+}
+
+.content{
+  position: relative;
+  top: 65px;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 14%, rgba(217,216,216,1) 14%, rgba(240,240,240,1) 15%);
+  width: 99.2%;
+  height: 854px;
+  border: 8px solid #120D31;
+  border-radius: 0 0 25px 25px;
+}
+
+.banner{
+  background-color: #120D31;
+  height:84px;
+  width:100%;
+  position: fixed;
+  margin-left: -2px;
+  margin-top: -2px;
+  z-index: 1;
+}
+
+.logo{
+  max-width: 80px;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-top: 5px;
+  border-radius: 100%;
+}
+
+.action{
+ position: fixed;
+ top: 100px;
+ z-index: 2;
+ margin-top: -15px;
+ background-color: rgba(255,255,255,1);
+ width: 13.89%;
+ height:240px;
+ margin-left: 0.4%;
+}
+
+.action .Profile{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 26.5%;
+}
+
+.action .Profile img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ h3{
+ font-size: 20px;
+ color: black;
+ font-weight: 600;
+ text-align: center;
+}
+
+h4{
+ font-size: 18px;
+ color: #c4c1e0;
+ font-weight: 500;
+ text-align: center;
+ margin-top: -15px;
+}
+
+.SideBut{
+  width:270px;
+  padding: 5px;
+  font-size: 20px;
+  background: none;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  color: #555;
+  font-weight: 530;
+  transition: 0.5s;
+}
+
+
+.menu{
+  margin-left:-40px;
+}
+
+.SideBut:hover{
+ background-color: #DCDCDC;
+ width:270px;
+ border-radius: 5px 0 0 5px;
+}
+
+.navbar{
+  padding: 10px;
+  display: inline-block;
+  margin-left: 31.6%;
+  font-size: 23px;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 3;
+}
+
+.navlinks{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 18px;
+  z-index: 2;
+}
+
+.navlinks:hover{
+  color: lightblue;
+}
+/* This is transparent */
+.Sidebar{
+  position: relative;
+  width: 13.95%;
+  height: 625px;
+  margin-top: 229px;
+  margin-left: 0.02%;
+  border-radius: 25px 25px 0px 18px;
+  background-color: rgba(255,255,255,1);
+  z-index: 3;
+}
+/* This is transparent */
+#Mainarea{
+  margin-left: 14.5%;
+  margin-top: -828px;
+  position: relative;
+  width: 85%;
+  height: 825px;
+  z-index: 1;
+}
+
+#Overview{
+  visibility: hidden;
+  position: relative;
+  margin-top: -828px;
+  width: 100%;
+  height: 825px;
+  z-index: 1;
+}
+
+  #Balance{
+    margin-top:-67px;
+    width: 300px;
+    height: 360px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+#INandOUT{
+    position:absolute;
+    top:-1px;
+    right:965px;
+    bottom:505px;
+    width: 300px;
+    height: 360px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+}
+
+  #TransactionsHistory{
+    width: 400px;
+    height: 430px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-top: -25px;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+ #Timeline{
+    position:absolute;
+    top:545px;
+    right:20px;
+    bottom:506px;
+    width: 915px;
+    height: 360px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-top: -545px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.chartBox2{
+     margin-left:40px;
+     width:700px;
+     height:700px;
+ }         
+
+.BalanceTitle{
+    font-weight:bold;
+    font-size:20px;
+    color: #120D31;
+    padding-left:20px;
+    margin-top:10px;
+}
+
+.TransactionTitle{
+    font-weight:bold;
+    color: #120D31;
+    font-size:20px;
+    padding-top:10px;
+    padding-left:20px;
+}
+
+  #StandingOrders{
+    width: 555px;
+    height: 430px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-top: -477px;
+    margin-left: 450px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+    #DirectDebtit{
+    width: 560px;
+    height: 430px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-top: -427px;
+    float:right;
+    margin-right: 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+ .accountDisplayALL{
+ backgorund-color:red;    
+ }
+  
+ .DirectDebtitTitle{
+    font-weight:bold;
+    color: #120D31;
+    font-size:20px;
+    padding-left:20px;
+    margin-top:10px;
+  }
+  
+.chartBox{
+    margin-top:-40px;
+}
+
+.chartBox2{
+}
+
+.chartBox3{
+        margin-top:-40px;
+}
+
+#Savings{
+  visibility: hidden;
+  position: relative;
+  margin-top: -855px;
+  width: 100%;
+  height: 830px;
+  z-index: 1;
+}
+
+#analytics{
+  visibility: hidden;
+  position: relative;
+  margin-top: -828px;
+  width: 100%;
+  height: 825px;
+  z-index: 1;
+}
+
+#Profile{
+  visibility: hidden;
+  position: relative;
+  margin-top: -828px;
+  width: 100%;
+  height: 825px;
+  z-index: 1;
+}
+
+.UserData{
+  width: 800px;
+  height: 800px;
+  background-color: rgba(255,255,255,1);
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.infodisplay{
+  font-family: tahoma;
+  position: relative;
+  top: 20px;
+  margin-left: 12%;
+  margin-top: 20px;
+  width: 600px;
+}
+
+.mainhead{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: black;
+  padding: 0px 0px 6px 10px;
+  border-bottom: 2px solid black ;
+  font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+}
+
+.minihead4{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: black;
+  padding: 0px 0px 6px 10px;
+  border-bottom: 2px solid black ;
+  font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+  margin-top: -20px;
+}
+
+.minihead1{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: black;
+  padding: 0px 0px 6px 10px;
+  border-bottom: 2px solid black ;
+  font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+}
+
+.minihead2{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: -25px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: black;
+  padding: 0px 0px 6px 10px;
+  border-bottom: 2px solid black ;
+  font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+}
+
+.minihead3{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  margin-top: -25px;
+  color: black;
+  padding: 0px 0px 6px 10px;
+  border-bottom: 2px solid black ;
+  font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+}
+
+.profinfo{
+  justify-content: flex-start;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+}
+
+.DialogInput{
+  background-color: #ededed;
+  position: relative;
+  top: -33px;
+  padding: 5.5px;
+  margin-top:15px;
+  width: 350px;
+  pointer-events: none;
+}
+
+#editbut{
+  width:80px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #2e466e;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: -45px;
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-weight: 530;
+}
+
+#subbut{
+  visibility: hidden;
+  width:105px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #2e466e;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: -45px;
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-weight: 530;
+}
+
+.Filtersection{
+    position:absolute;
+    width:180px;
+    height:200px;
+    left:730px;
+    top:150px;
+}
+
+.startitle{
+    position:relative;
+   font-weight:bold; 
+   left:20px;
+}
+
+.endtitle{
+   position:relative;
+   font-weight:bold; 
+   left:20px;
+   bottom:15px;
+}
+
+.date1{
+    position:relative;
+    left:20px;
+    bottom:10px;
+    width:140px;
+    height:25px;
+}
+
+.date2{
+    position:relative;
+    left:20px;
+    bottom:25px;
+    width:140px;
+    height:25px;
+}
+
+
+
+.icon4{
+  position: relative;
+  top: 4px;
+  left: 3px;
+}
+
+#closebut{
+  visibility: hidden;
+  position: relative;
+  float: right;
+  top: -750px;
+  left: 20px;
+  width:40px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #ededed;
+  text-align: center;
+  border-radius: 25px;
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+  display: inline-block;
+  color: black;
+  font-weight: 530;
+}
+
+#closebut:hover{
+  background-color: lightgrey;
+}
+
+  .icon3{
+    position: relative;
+    top: 2px;
+  }
+
+.icon2{
+position: relative;
+top: 2px;
+}
+
+.entrytitle{
+  padding-top: 10px;
+}
+
+.entry1{
+  position: relative;
+  top: -0px;
+  width: 200px;
+  text-align: right;
+  font-weight: 500;
+  color: black;
+  margin-left: -50px;
+  line-height: 19px;
+  margin-top:-20px;
+  font-size: 16.5px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+}
+
+.entry2{
+  position: relative;
+  top: 0px;
+  width: 200px;
+  text-align: right;
+  font-weight: 500;
+  color: black;
+  margin-left: -50px;
+  line-height: 19px;
+  margin-top: -20px;
+  font-size: 16.5px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+}
+
+.entry3{
+  position: relative;
+  top: -10px;
+  width: 200px;
+  text-align: right;
+  font-weight: 500;
+  color: black;
+  margin-left: -50px;
+  line-height: 19px;
+  margin-top:-10px;
+  font-size: 16.5px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+}
+
+.entry4{
+  position: relative;
+  top: -10px;
+  width: 200px;
+  text-align: right;
+  font-weight: 500;
+  color: black;
+  margin-left: -50px;
+  line-height: 19px;
+  margin-top:-10px;
+  font-size: 16.5px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+}
+
+.data1{
+  background-color: white;
+  width: 200px;
+  position: relative;
+  text-align: left;
+  margin-left: 155px;
+  margin-top: -167px;
+  font-weight: 400;
+  padding-top: 10px;
+  color: black;
+  line-height: 19px;
+  font-size: 15px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+}
+
+.data2{
+  background-color: white;
+  width: 200px;
+  position: relative;
+  text-align: left;
+  margin-left: 155px;
+  margin-top: -121px;
+  color: black;
+  line-height: 19px;
+  padding-top: 10px;
+  font-size: 15px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+  font-weight: 400;
+}
+
+.data3{
+  width: 200px;
+  position: relative;
+  text-align: left;
+  margin-left: 155px;
+  color: black;
+  margin-top: -86px;
+  line-height: 19px;
+  padding-top: 10px;
+  font-size: 15px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+  font-weight: 400;
+}
+
+.data4{
+  width: 200px;
+  position: relative;
+  text-align: left;
+  margin-left: 155px;
+  color: black;
+  margin-top: -177px;
+  line-height: 19px;
+  padding-top: 10px;
+  font-size: 15px;
+  margin-bottom: 4px;
+  user-select: none;
+  letter-spacing: initial;
+  font-weight: 400;
+}
+
+.extention{
+  width: 750px;
+  height: 300px;
+  background-color: rgba(255,255,255,1);
+  justify-content: center;
+  float: right;
+  margin-right: 20px;
+  margin-top: -820px;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.PasswordReset{
+  width: 750px;
+  height: 250px;
+  background-color: rgba(255,255,255,1);
+  justify-content: center;
+  float: right;
+  margin-right: 20px;
+  margin-top: -500px;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.SocialMedia{
+  width: 750px;
+  height: 210px;
+  background-color: rgba(255,255,255,1);
+  justify-content: center;
+  float: right;
+  margin-right: 20px;
+  margin-top: -230px;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.action2 .Profile2{
+  position: relative;
+  width: 10px;
+  height: 120px;
+  margin-top: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.action2 .Profile2 img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul li{
+  list-style: none;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+ul li a{
+
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.icon{
+ margin-left:  25px;
+ width: 22px;
+ height: 22px;
+ transform: translateY(14%);
+ color: black;
+ margin-top: 5px;
+}
+
+.aboutdisplay{
+  font-family: tahoma;
+  width: 700px;
+  margin-left: 3%;
+}
+
+
+.BOX:hover {
+    background-color:  rgb(207, 203, 202,0.5);
+}
+
+
+#transDisplay{
+    overflow-x:auto;
+    position: absolute;
+    top:430px;
+    width:366px;
+    margin-left:25px;
+    height:360px;
+}
+
+#StandingOrdersDisplay{
+     overflow-x:auto;
+    position: absolute;
+    top:430px;
+    width:505px;
+    margin-left:25px;
+    height:360px;
+}
+
+#Operation1{
+    position: absolute;
+    width:470px;
+    top:10px;
+    left:20px;
+    height: 380px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Operation1Title{
+    font-weight:bold;
+    color: #120D31;
+    font-size:20px;
+    margin-top:10px;
+    padding-left:20px;
+}
+
+#operations1gdisplay{
+   overflow-x:auto;
+    position: absolute;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width:430px;
+    background-color:#fafafa;
+    border-radius:0 0 25px 25px;
+    top:90px;
+    left:20px;
+    height:270px;
+}
+
+#DirectDebtitDisplay{
+     overflow-x:auto;
+    position: absolute;
+    top:430px;
+    width:505px;
+    margin-left:25px;
+    height:360px;
+}
+
+.BOX6{
+ display: block;
+    background-color:#ebebeb;
+    table-layout: fixed; 
+    width: 493px;
+    height:40px;
+    font-weight:bold;
+    font-size:16px;
+    padding-bottom:10px;
+    padding-left:12px;
+}
+
+.BOX7{
+    display: block;
+    table-layout: fixed; 
+    border-bottom: 1px solid #ddd;
+    height:60px;
+}
+
+.BOX7:hover{
+        background-color:  rgb(207, 203, 202,0.5);
+}
+
+.statusactivity{
+    position:relative;
+    font-weight:bold;
+    font-size:18px;
+    text-align:center;
+    top:-60px;
+    left:120px;
+}
+
+.paymentamount{
+    position:relative;
+    font-weight:bold;
+    font-size:18px;
+    text-align:center;
+    left:220px;
+    top:-98px;
+}
+
+.paymenttimestamp{
+      position:relative;
+    font-weight:bold;
+    font-size:18px;
+    text-align:right;
+    left:320px;
+    top:-138px;
+}
+
+
+.name{
+    position:relative;
+    font-weight:bold;
+    font-size:18px;
+    text-align:left;
+    width:160px;
+    height:40px;
+    padding-left:10px;
+}
+
+.Desriptiontext2{
+    position:relative;
+    top:30px;
+    width:650px;
+    height:50px;
+    font-weight:bold;
+}
+
+
+.BOX4{
+    display: block;
+    background-color:#ebebeb;
+    table-layout: fixed; 
+    width: 493px;
+    height:40px;
+    font-weight:bold;
+    font-size:16px;
+    padding-bottom:10px;
+    padding-left:12px;
+}
+
+
+
+.BOX3{
+    display: block;
+    table-layout: fixed; 
+    border-top: 1px solid #ddd;
+    height:150px;
+}
+
+.BOX5{
+    display: block;
+    table-layout: fixed; 
+    border-bottom: 1px solid #ddd;
+    height:1px;
+}
+
+
+.first_payment_date{
+    position:relative;
+    top:-38px;
+    left:80px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+
+.first_payment_text{
+    position:relative;
+    font-size:16px;
+}
+
+.startdatetext{
+    position:relative;
+    font-size:16px;
+}
+
+.final_payment_date{
+    position:relative;
+    top:-87px;
+    left:80px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.final_payment_text{
+    position:relative;
+    top:-50px;
+    font-size:16px;
+}
+
+.next_payment_datetext{
+    position:relative;
+    top:-154px;
+    left:220px;
+    font-size:16px;
+}
+
+.next_payment_amounttext{
+    position:relative;
+    top:-163px;
+    left:220px;
+    font-size:16px;
+}
+
+
+.next_payment_date{
+    position:relative;
+    top:-227px;
+    left:363px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.next_payment_amount{
+    position:relative;
+    font-weight:bold;
+    top:-241px;
+    left:286px;
+    font-size:18px
+}
+
+
+.progressBarContainer{
+    position:relative;
+    bottom:60px;
+    width:420px;
+    height:40px;
+    left:40px;
+}
+
+
+progress {
+  border-radius: 7px; 
+  width: 150px;
+  height: 30px;
+}
+progress::-webkit-progress-bar {
+  background-color: #ebebeb;
+  width:420px;
+  height:25px;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: #432cd1;
+  border-radius: 7px;
+}
+
+
+
+.BOX{
+    border-top: 1px solid #ddd;
+    display: block;
+    table-layout: fixed; 
+    width: 350px;
+    height:95px;
+    border-bottom: 1px solid #ddd;
+}
+
+.BOX2{
+    display: block;
+    background-color:#ebebeb;
+    table-layout: fixed; 
+    width: 340px;
+    height:40px;
+    font-weight:bold;
+    font-size:18px;
+    padding-bottom:10px;
+    padding-left:12px;
+}
+
+.Desriptiontext{
+    position:relative;
+    top:30px;
+    width:250px;
+    height:50px;
+    font-weight:bold;
+}
+
+.DateText{
+    position:relative;
+    top:-70px;
+}
+
+.Transactiontext{
+    position:relative;
+    top:-96px;
+    padding-right:20px;
+    float:right;
+    font-weight:bold;
+    text-align:right;
+}
+
+.AccountAmountText{
+    width:65px;
+    height:20px;
+    position:relative;
+    top:-108px;
+    text-align:right;
+    left:75%;
+    padding-right:20px;
+}
+
+
+
+.description{
+      padding-left:16px;
+      font-size:18px;
+      width:400px;
+      text-align:left;
+}
+
+.transaction_category{
+      border-bottom: 1px solid #ddd;
+      font-size:16px;
+      text-align:left;
+
+}
+
+.transaction_amount{
+      border-bottom: 1px solid #ddd;
+      font-size:16px;
+      text-align:right;
+}
+
+.account_amount{
+      border-bottom: 1px solid #ddd;
+      font-size:16px;
+      text-align:right;
+
+}
+            
+.dropbtn {
+  background-color: rgba(255,255,255,1);
+  position: absolute;
+  z-index:4;
+  top:-50px;
+  left:1450px;
+  color: black;
+  padding: 16px;
+  font-size: 18px;
+  font-weight:bold;
+  border: none;
+  margin-top:-50px;
+  width:160px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  font-weight:bold;
+  text-align:center;
+  display:none;
+  position: absolute;
+  top:-50px;
+  left:1450px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.disContainer1{
+display: block;
+font-family: tahoma;
+}
+
+.disContainer2{
+display: block;
+font-family: tahoma;
+}
+
+.displayname1{
+padding-top:25px;
+font-family: tahoma;
+font-weight:bold;
+font-size:15px;
+margin-bottom:-20px;
+margin-top:1px;
+height:45px;
+width: 140px;
+margin-left:10px;
+text-align:center;
+}
+
+.displayname2{
+padding-top:17px;
+font-family: tahoma;
+font-weight:bold;
+font-size:15px;
+margin-bottom:-20px;
+margin-top:1px;
+height:50px;
+width: 140px;
+margin-left:10px;
+text-align:center;
+}
+
+.disContainer1:hover{
+cursor: pointer;
+background-color:  rgb(207, 203, 202,0.5);
+}
+
+.disContainer2:hover{
+cursor: pointer;
+background-color:  rgb(207, 203, 202,0.5);
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+.dropdown:hover .dropbtn {
+background-color:  rgb(235, 235, 235, 0.9);
+}
+
+.topupselect{
+    width:100px;
+    height:100px;
+}
+
+ .chartBox{
+     width:300px;
+     height:300px;
+ }   
+ 
+  .chartBox2{
+     margin-left:20px;
+     width:700px;
+     height:700px;
+ }    
+ 
+    
+    
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+width: 0 !important
+    
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+width: 0 !important
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+width: 0 !important
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+width: 0 !important
+}   
+
+.Savingswidgets{
+    position:relative;
+    width: 700px;
+    height: 795px;
+    top:20px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.widgetinformation{
+    position:relative;
+    bottom:795px;
+    width: 850px;
+    height: 260px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-left: 745px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+}
+
+.widthchart{
+    position:relative;
+    bottom:790px;
+    width: 850px;
+    height: 510px;
+    background-color: rgba(255,255,255,1);
+    justify-content: center;
+    margin-left: 745px;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);   
+}
+
+.widgetContainer{
+    width:660px;
+    margin-left:20px;
+    height:730px;
+}
+
+#innerbanner{
+    position:relative;
+    bottom:50px;
+    width:100%;
+    height:50px;
+}
+
+.savingtitle{
+    font-weight:bold;
+    color: #120D31;
+    font-size:20px;
+    padding-top:10px;
+    padding-left:20px;
+}
+
+.open-button {
+  position:relative;
+  left:540px;
+  bottom:40px;
+  background-color: #555;
+  width:120px;
+  height:40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius:25px;
+}
+
+.newtext{
+    position:relative;
+    font-weight:bold;
+    bottom:10px;
+    text-align:center;
+    font-size:19px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 250px;
+  left: 800px;
+  border: 1px solid black;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 500px;
+  height:500px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.Createbtn {
+  position:relative;
+  top:200px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+/* Add a red background color to the cancel button */
+.btncancel {
+  background-color: red;
+  position:relative;
+  top:-290px;
+  left:475px;
+  color: white;
+  font-weight:bold;
+  font-size:20px;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height:25px;
+}
+
+.btncancel:hover {
+  background-color: red;
+  opacity: 0.5;
+}
+
+/* Add some hover effects to buttons */
+.open-button:hover {
+  opacity: 1;
+}
+
+#backgroundcover{
+display:none;
+position:relative;
+right:50px;
+bottom:71px;
+background-color:black;
+width:1635px;
+height:845px;
+opacity: 0.3;
+  z-index: 8;
+}
+
+.Nametitle{
+   position:relative; 
+   left:20px;
+   font-size:20px;
+   font-weight:bold;
+}
+
+.Amounttitle{
+    position:relative;
+    left:20px;
+    top:50px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.Endatetitle{
+    position:relative;
+    left:20px;
+    top:100px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.Nameinput{
+  position:relative;
+  top:40px;
+  right:120px;
+  width: 300px;
+  padding: 15px;
+  border: none;
+  background: #f1f1f1;}
+
+.Amountinput{
+  position:relative;
+  top:90px;
+  right:135px;
+  width: 300px;
+  padding: 15px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.EndDateinput{
+  position:relative;
+  top:110px;
+  left:20px;
+  width: 300px;
+  padding: 15px;
+  border: none;
+  background: #f1f1f1;   
+}
+
+#savingsdisplay{
+    overflow-x:auto;
+    position:relative;
+    bottom:40px;
+    width:660px;
+    height:670px;
+}
+
+.topupcontainer{
+    position:relative;
+    left:20px;
+    bottom:10px;
+    width:810px;
+    height:205px;
+}
+
+#topupmsgdisplay{
+    width:150px;
+    height:50px;
+}
+
+#savingserrormsgcontainer{
+    position:relative;
+    left:60px;
+    width:450px;
+    height:35px;
+    background-color:#ed4242;
+    opacity: 1;
+    border-radius:15px;
+}
+
+.savingserrormsg{
+    color:white;
+    padding-top:7px;
+    font-weight:bold;
+    text-align:center;
+    opacity: 1;   
+}
+
+#savingsucessmsgcontainer{
+    position:relative;
+    left:60px;
+    width:450px;
+    height:35px;
+    background-color:#2bc454;
+    opacity: 1;
+    border-radius:15px;
+}
+
+.savingsucessmsg{
+    color:white;
+    padding-top:7px;
+    font-weight:bold;
+    text-align:center;
+    opacity: 1; 
+}
+
+
+.BOX8{
+    display: block;
+    background-color:#ebebeb;
+    table-layout: fixed; 
+    width: 648px;
+    height:40px;
+    font-weight:bold;
+    font-size:16px;
+    padding-bottom:10px;
+    padding-left:12px; 
+}
+
+.BOX9{
+    display: block;
+    table-layout: fixed; 
+    border-top: 1px solid #ddd;
+    height:150px;
+}
+
+.BOX10{
+  display: block;
+    table-layout: fixed; 
+    border-bottom: 1px solid #ddd;
+    height:1px;  
+}
+
+.startdatetext{
+    position:relative;
+    top:-1px;
+    font-size:16px;  
+}
+
+.startdate{
+    position:relative;
+    top:-38px;
+    left:80px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+
+.enddatetext{
+    position:relative;
+    font-size:16px;
+}
+
+.enddate{
+    position:relative;
+    top:-87px;
+    left:80px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.enddatetext{
+    position:relative;
+    top:-50px;
+    font-size:16px;
+}
+
+
+
+.targetamounttext{
+    position:relative;
+    top:-155px;
+    left:220px;
+    font-size:16px;
+}
+
+
+.targetamount{
+    position:relative;
+    font-weight:bold;
+    top:-192px;
+    left:335px;
+    font-size:18px
+}
+
+.Currentamounttext{
+    position:relative;
+    top:-204px;
+    left:220px;
+    font-size:16px;
+}
+
+
+.Currentamount{
+    position:relative;
+    font-weight:bold;
+    top:-241px;
+    left:343px;
+    font-size:18px
+}
+
+
+.progressBarContainer2{
+    position:relative;
+    bottom:60px;
+    width:500px;
+    height:40px;
+    left:80px;
+}
+
+ .progressBarContainer2 progress {
+  border-radius: 7px; 
+  width: 150px;
+  height: 30px;
+}
+.progressBarContainer2 progress::-webkit-progress-bar {
+  background-color: #ebebeb;
+  width:500px;
+  height:25px;
+  border-radius: 7px;
+}
+.progressBarContainer2 progress::-webkit-progress-value {
+  background-color: #432cd1;
+  border-radius: 7px;
+}
+
+#accountselection{
+ position:absolute;
+ top:100px;
+ left:320px;
+ height:30px;
+ font:15px;
+ font-weight:bold;
+}
+
+#topupsdisplay{
+ position:absolute;
+ top:100px;
+ left:120px;
+ height:30px;
+ font:15px;
+ font-weight:bold;
+}
+
+
+#topupamount{
+ position:absolute;
+ top:100px;
+ left:630px;
+ height:25px;
+ width:150px;
+ font-weight:bold; 
+}
+
+.accounttext{
+  position:absolute;
+  top:89px;
+  float:right;
+  right:500px;
+}
+
+.amounttext{
+ position:absolute;
+ top:89px;
+ float:right;
+ right:190px;
+}
+
+.sendbtn{
+  position:absolute;
+  top:150px;
+  right:30px;
+  border: 1px solid #2e466e;
+  background: #2e466e;
+  text-align: center;
+  padding: 8.8px;
+  color: #fff;
+  border-radius: 5px  5px 5px 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight:bold;
+  margin-left: -6px;
+  font-family: tahoma;
+}
+
+.sendbtn:hover{
+  background: #4d78bf;
+}
+  
+.filterbutton{
+  position:relative;
+  top:-10px;
+  left:115px;
+  border: 1px solid #2e466e;
+  background: #2e466e;
+  text-align: center;
+  padding: 8.8px;
+  color: #fff;
+  border-radius: 5px  5px 5px 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: -6px;
+  font-family: tahoma; 
+}   
+
+.filterbutton:hover{
+  background: #4d78bf;
+}
+
+.Resetbutton{
+  position:relative;
+  top:-10px;
+  right:25px;
+  border: 1px solid #2e466e;
+  background: #2e466e;
+  text-align: center;
+  padding: 8.8px;
+  color: #fff;
+  border-radius: 5px  5px 5px 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: -6px;
+  font-family: tahoma;   
+}
+
+.Resetbutton:hover{
+  background: #4d78bf;
+}
+            
+.op1box{
+width:430px;
+height:50px;
+}
+
+.op1index{
+    position:absolute;
+    text-align:left;
+    left:20px;
+}
+
+.op1description{
+    position:absolute;
+    text-align:center;
+    left:50px;
+}
+
+.op1count{
+    position:absolute;
+    text-align:center;
+    left:270px;
+}
+
+
+.op1sum{
+    position:absolute;
+    text-align:right;
+    left:350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            

@@ -1,0 +1,6 @@
+[03-Mar-2022 11:35:00 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/jb1828/public_html/FinalYearProject/includes/signup.inc.php on line 94
+[08-Mar-2022 15:16:38 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/jb1828/public_html/FinalYearProject/includes/signup.inc.php on line 94
+[08-Mar-2022 20:51:35 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/jb1828/public_html/FinalYearProject/includes/signup.inc.php on line 94
+[08-Mar-2022 21:01:30 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/jb1828/public_html/FinalYearProject/includes/signup.inc.php on line 94
+[08-Mar-2022 21:08:37 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/jb1828/public_html/FinalYearProject/includes/signup.inc.php on line 94
+[09-Mar-2022 12:00:47 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/jb1828/public_html/FinalYearProject/includes/signup.inc.php on line 94
