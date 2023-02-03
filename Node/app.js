@@ -16,8 +16,8 @@ app.set('view engine', 'ejs');
 const redirect_uri = "https://jb1828.brighton.domains/FinalYearProject/truelayer-redirect";
 // Create TrueLayer client instance
 const client = new AuthAPIClient({
-        client_id: "ad92fn21-9496f0",
-        client_secret: "bb172316-cfe5-4731-9e0c-af6d58b3136c"
+        client_id: "****",
+        client_secret: "****"
 });
 
 // Define array of permission scopes
@@ -28,10 +28,10 @@ const mockProviders = "uk-ob-all%20uk-oauth-all%20uk-cs-mock";
 
 //Database config
  const con = mysql.createConnection({
-     host: "localhost",
-     database: "jb1828_loginsystem",
-     user: "jb1828_root",
-     password: "A1B2C3a1b2c3",
+     host: "****",
+     database: "****",
+     user: "****",
+     password: "****",
     })
 
 //User enter details so that they can be used for databse actions.
