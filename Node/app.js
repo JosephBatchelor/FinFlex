@@ -358,7 +358,7 @@ con.connect();
    res.redirect("https://jb1828.brighton.domains/FinalYearProject/display");
 
     }catch (error){
-        res.send("not good");
+        res.send("ERROR: 404"); //Not good
     }   
 });
 
