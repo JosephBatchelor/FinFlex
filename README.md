@@ -1,5 +1,5 @@
 
-# Open banking application
+# FinFlex
 
 This project was created and documented for my final year dissertation. It is a web application that allows users to access multiple financial data from different FSCS approved banks from a single application.
 
